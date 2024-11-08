@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>Test site</title>
+		<style type="text/css">
+		
+		</style>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+
+	<body>
+		<h1>Heading 1</h1>
+		<h6>Heading 6</h6>
+		<p>This is my first site</p>
+		<div> Images
+
+			<p>1. Calculate image resolution if width 300 pixels and height is 450 pixels.</p>
+			<input type="number" name="ans1" id="ans1">
+			<span id="ans1_res"></span>
+			<p>2. Calculate image width if image resolution is 1500 pixels and height is 30 pixels.</p>
+			<input type="number" name="ans2" id="ans2">
+			<p>3. Calculate image heigth if image resolution is 4500 if width 90 pixels.</p>
+			<input type="number" name="ans3" id="ans3">
+			<button onclick="check_ans()">Check</button>
+		</div>
+
+		<table>
+		  <tr>
+		    <th>Name</th>
+		    <th>age</th>
+		    <th>school</th>
+		  </tr>
+		  <tr>
+		    <td>Anara</td>
+		    <td>15</td>
+		    <td>lyceum24</td>
+		  </tr>
+		  <tr>
+		    <td>Dasha</td>
+		    <td>Francisco Chang</td>
+		    <td>Mexico</td>
+		  </tr>
+		</table>
+
+<script type="text/javascript">
+		
+			function check_ans() {
+
+				var ans1 = document.getElementById("ans1").value;
+				if (ans1 == 135000) {
+					alert("Q1. Answer is correct! ");
+					document.getElementById("ans1_res").innerHTML = "Q1. Answer is correct! ";
+				}
+				else {
+					alert("Q1. Answer is wrong! ");
+					document.getElementById("ans1_res").innerHTML = "Q1. Answer is wrong! ";
+				}
+				
+
+				var ans2 = document.getElementById("ans2").value;
+				if (ans2 == 50) {
+
+					alert("Q2. Answer is correct! ");
+				}
+				else {
+					alert("Q2. Answer is wrong! ");
+				}
+				
+				var ans3 = document.getElementById("ans3").value;
+				if (ans3 == 50) {
+					
+					alert("Q3. Answer is correct! ");
+				}
+				else {
+					alert("Q3. Answer is wrong! ");
+				}
+
+			}
+		</script>
+
+	</body>
+
+
+</html>

@@ -1,0 +1,24 @@
+
+			p {
+				color:red;
+			}
+			div p {
+				color:black;
+			}
+			body {
+				background: skyblue;
+			}
+			div {
+				width: 200px;
+				height: 400px;
+				background: white;
+			}
+			table {
+				border: 1px solid black;
+			}
+			table td {
+				border: 1px solid black;
+			}
+			table th {
+				border: 1px solid black;
+			}
