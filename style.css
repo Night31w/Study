@@ -22,3 +22,9 @@
 			table th {
 				border: 1px solid black;
 			}
+
+			.Test_blocks {
+				background: #8062b5;
+				float: left;
+				margin-left: 2px;
+			}
