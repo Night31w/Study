@@ -1,0 +1,213 @@
+<html>
+	<head>
+		<title>Test site</title>
+		<style type="text/css">
+		
+		</style>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+
+	<body>
+		<h1>Computer science test</h1>
+		
+		<div class="Test_blocks"> Images
+
+			<p>1. Calculate image resolution if width 300 pixels and height is 450 pixels.</p>
+			<input type="number" name="ans1_img" id="ans1_img">
+			<span id="ans1_res_img"></span>
+			<p>2. Calculate image width if image resolution is 1500 pixels and height is 30 pixels.</p>
+			<input type="number" name="ans2_img" id="ans2_img">
+			<p>3. Calculate image heigth if image resolution is 4500 if width 90 pixels.</p>
+			<input type="number" name="ans3_img" id="ans3_img">
+			<button onclick="check_img()">Check</button>
+		</div>
+		<div class="Test_blocks"> Binary numbers
+
+			<p>1. Convert binary number 0011 1010 into denary.</p>
+			<input type="number" name="ans1_bin" id="ans1_bin">
+			<span id="ans1_res_bin"></span>
+			<p>2. Convert binary number 1101 0111 into octal.</p>
+			<input type="number" name="ans2_bin" id="ans2_bin">
+			<p>3. Convert binary number 0111 1101 into hexadecimal.</p>
+			<input type="number" name="ans3_bin" id="ans3_bin">
+			<button onclick="check_bin()">Check</button>
+		</div>
+		<div class="Test_blocks"> Denary numbers
+
+			<p>1. Convert denary number 87 into binary.</p>
+			<input type="number" name="ans1_den" id="ans1_den">
+			<span id="ans1_res_den"></span>
+			<p>2. Convert denary number 96 into octal.</p>
+			<input type="number" name="ans2_den" id="ans2_den">
+			<p>3. Convert denary number 24 into hexadecimal.</p>
+			<input type="number" name="ans3_den" id="ans3_den">
+			<button onclick="check_den()">Check</button>
+		</div>
+		<div class="Test_blocks"> Hexadecimal numbers numbers
+
+			<p>1. Convert Hexadecimal number C6 into binary.</p>
+			<input type="number" name="ans1_hex" id="ans1_hex">
+			<span id="ans1_res_hex"></span>
+			<p>2. Convert Hexadecimal number BF4 into octal.</p>
+			<input type="number" name="ans2_hex" id="ans2_hex">
+			<p>3. Convert Hexadecimal number 6A5 into denary.</p>
+			<input type="number" name="ans3_hex" id="ans3_hex">
+			<button onclick="check_hex()">Check</button>
+		</div>
+		<table>
+		  <tr>
+		    <th>Name</th>
+		    <th>age</th>
+		    <th>school</th>
+		  </tr>
+		  <tr>
+		    <td>Anara</td>
+		    <td>15</td>
+		    <td>lyceum24</td>
+		  </tr>
+		  <tr>
+		    <td>Dasha</td>
+		    <td>Schoo№l3</td>
+		    <td>Gymnasist4</td>
+		  </tr>
+		</table>
+
+<script type="text/javascript">
+		
+			function check_img() {
+
+				var ans1 = document.getElementById("ans1_img").value;
+				if (ans1 == 135000) {
+					alert("Q1. Answer is correct! ");
+					document.getElementById("ans1_res_img").innerHTML = "Q1. Answer is correct! ";
+				}
+				else {
+					alert("Q1. Answer is wrong! ");
+					document.getElementById("ans1_res_img").innerHTML = "Q1. Answer is wrong! ";
+				}
+				
+
+				var ans2 = document.getElementById("ans2_img").value;
+				if (ans2 == 50) {
+
+					alert("Q2. Answer is correct! ");
+				}
+				else {
+					alert("Q2. Answer is wrong! ");
+				}
+				
+				var ans3 = document.getElementById("ans3_img").value;
+				if (ans3 == 50) {
+					
+					alert("Q3. Answer is correct! ");
+				}
+				else {
+					alert("Q3. Answer is wrong! ");
+				}
+
+			}
+
+			function check_bin() {
+
+				var ans1 = document.getElementById("ans1_bin").value;
+				if (ans1 == 135000) {
+					alert("Q1. Answer is correct! ");
+					document.getElementById("ans1_res_img").innerHTML = "Q1. Answer is correct! ";
+				}
+				else {
+					alert("Q1. Answer is wrong! ");
+					document.getElementById("ans1_res_img").innerHTML = "Q1. Answer is wrong! ";
+				}
+				
+
+				var ans2 = document.getElementById("ans2_img").value;
+				if (ans2 == 50) {
+
+					alert("Q2. Answer is correct! ");
+				}
+				else {
+					alert("Q2. Answer is wrong! ");
+				}
+				
+				var ans3 = document.getElementById("ans3_img").value;
+				if (ans3 == 50) {
+					
+					alert("Q3. Answer is correct! ");
+				}
+				else {
+					alert("Q3. Answer is wrong! ");
+				}
+
+			}
+
+			function check_den() {
+
+				var ans1 = document.getElementById("ans1_den").value;
+				if (ans1 == 135000) {
+					alert("Q1. Answer is correct! ");
+					document.getElementById("ans1_res_den").innerHTML = "Q1. Answer is correct! ";
+				}
+				else {
+					alert("Q1. Answer is wrong! ");
+					document.getElementById("ans1_res_den").innerHTML = "Q1. Answer is wrong! ";
+				}
+				
+
+				var ans2 = document.getElementById("ans2_den").value;
+				if (ans2 == 50) {
+
+					alert("Q2. Answer is correct! ");
+				}
+				else {
+					alert("Q2. Answer is wrong! ");
+				}
+				
+				var ans3 = document.getElementById("ans3_den").value;
+				if (ans3 == 50) {
+					
+					alert("Q3. Answer is correct! ");
+				}
+				else {
+					alert("Q3. Answer is wrong! ");
+				}
+
+			}
+			function check_hex() {
+
+				var ans1 = document.getElementById("ans1_hex").value;
+				if (ans1 == 11000110) {
+					alert("Q1. Answer is correct! ");
+					document.getElementById("ans1_res_hex").innerHTML = "Q1. Answer is correct! ";
+				}
+				else {
+					alert("Q1. Answer is wrong! ");
+					document.getElementById("ans1_res_hex").innerHTML = "Q1. Answer is wrong! ";
+				}
+				
+
+				var ans2 = document.getElementById("ans2_hex").value;
+				if (ans2 == 5764) {
+
+					alert("Q2. Answer is correct! ");
+				}
+				else {
+					alert("Q2. Answer is wrong! ");
+				}
+				
+				var ans3 = document.getElementById("ans3_hex").value;
+				if (ans3 == 1701) {
+					
+					alert("Q3. Answer is correct! ");
+				}
+				else {
+					alert("Q3. Answer is wrong! ");
+				}
+
+			}
+		</script>
+		<h3>Test page!</h3>
+	</body>
+
+
+</html>
